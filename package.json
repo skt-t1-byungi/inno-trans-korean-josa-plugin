@@ -1,20 +1,36 @@
 {
   "name": "inno-trans-korean-josa-plugin",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "dist/index.js",
   "module": "index.js",
+  "author": {
+    "name": "skt-t1-byungi",
+    "email": "tiniwz@gmail.com"
+  },
+  "keywords": [
+    "i18n",
+    "inno-trans",
+    "korean",
+    "josa"
+  ],
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skt-t1-byungi/inno-trans-korean-josa-plugin"
+  },
   "license": "MIT",
   "scripts": {
-    "build": "bili --format cjs,es,umd-min --name inno-trans-korean-jsoa-plugin --module-name InnoTransKoreanJosaPlugin --banner",
+    "build": "bili --format cjs,es,umd-min --name inno-trans-korean-josa-plugin --module-name InnoTransKoreanJosaPlugin --banner",
     "test": "ava",
     "dev": "ava -w",
     "prepublish": "npm run build"
   },
   "peerDependencies": {
-    "inno-trans": "^1.1.0"
+    "inno-trans": "^1.1.2"
   },
   "dependencies": {
-    "inno-trans": "^1.1.2",
     "josa": "^3.0.1"
   },
   "devDependencies": {
