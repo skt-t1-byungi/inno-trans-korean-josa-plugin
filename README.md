@@ -18,7 +18,7 @@ const plugin = require('inno-trans-korean-josa-plugin');
 ### browser
 ```html
 <script src="https://unpkg.com/inno-trans"></script>
-<script src="inno-trans-korean-josa-plugin"></script>
+<script src="https://unpkg.com/inno-trans-korean-josa-plugin"></script>
 <script>
  var trans = InnoTrans;
  var plugin = InnoTransKoreanJosaPlugin;
