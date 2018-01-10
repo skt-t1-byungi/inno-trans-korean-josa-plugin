@@ -1,8 +1,9 @@
 {
   "name": "inno-trans-korean-josa-plugin",
-  "version": "0.1.1",
-  "main": "dist/index.js",
-  "module": "index.js",
+  "version": "0.1.2",
+  "main": "dist/inno-trans-korean-josa-plugin.cjs.js",
+  "module": "dist/inno-trans-korean-josa-plugin.m.js",
+  "unpkg": "dist/inno-trans-korean-josa-plugin.min.js",
   "author": {
     "name": "skt-t1-byungi",
     "email": "tiniwz@gmail.com"
@@ -18,7 +19,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/skt-t1-byungi/inno-trans-korean-josa-plugin"
+    "url": "https://github.com/skt-t1-byungi/inno-trans-korean-josa-plugin.git"
   },
   "license": "MIT",
   "scripts": {
