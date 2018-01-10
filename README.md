@@ -1,4 +1,5 @@
 # inno-trans-korean-josa-plugin
+[inno-trans](https://github.com/skt-t1-byungi/inno-trans) plugin for korean josa
 
 ## Install
 ```sh
