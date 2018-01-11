@@ -30,7 +30,7 @@ const plugin = require('inno-trans-korean-josa-plugin');
 ```js
 const lang = trans({
   locale: 'ko',
-  plugin: [plugin]
+  plugin: [plugin],
   message: {
     ko: { 
       'good': '{name|은} 좋다' ,
